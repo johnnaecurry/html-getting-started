@@ -1,4 +1,32 @@
 /* Add screen styles below */
-a.active {
-    font-weight: bold;
+body {
+    background: #37323E;
+    margin-top: 100px;
+}
+
+div.card {
+    background: #FDE8E9;
+    color: #37323E;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 auto;
+    width: 500px;
+    height: 300 px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 3);
+}
+
+.card div {
+    padding: 20px;
+}
+
+h1 {
+    background: #E3BAC6;
+    margin: 0;
+    padding: 20px;
+    border-radius: 20px 20px 0 0;
+}
+
+img {
+    float: left;
+    margin-right: 20px;
 }
